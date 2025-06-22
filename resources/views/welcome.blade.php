@@ -5,19 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shakti</title>
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
->
+
 </head>
 
 <body class="bg-gray-900 text-white">
     <header class="navbar">
         <img src="https://source.unsplash.com/random/40x40?logo" alt="Logo" class="logo">
         <nav class="nav">
-            <a href="index.html">Inicio</a>
+            <a href="/">Inicio</a>
             <a href="#">Nosotros</a>
             <a href="#">Servicios</a>
             <a href="#">Contacto</a>
         </nav>
-       <a href="{{ route('login') }}" class="login-icon">👤</a>
+        <a href="{{ route('login') }}" class="login-icon">👤</a>
 
     </header>
     <main class="hero">
