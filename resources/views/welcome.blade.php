@@ -9,17 +9,9 @@
 </head>
 
 <body class="bg-gray-900 text-white">
-    <header class="navbar">
-        <img src="" alt="Logo" class="logo">
-        <nav class="nav">
-            <a href="/">Inicio</a>
-            <a href="#">Nosotros</a>
-            <a href="#">Servicios</a>
-            <a href="#">Contacto</a>
-        </nav>
-        <a href="{{ route('login') }}" class="login-icon">👤</a>
 
-    </header>
+    @include ('complements.usuaria.nav')
+
     <main class="hero">
         <h1>Bienvenido a Nuestro Sitio Shakti</h1>
         <p>Tu bienestar es primero</p>

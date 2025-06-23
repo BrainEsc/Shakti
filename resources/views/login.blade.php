@@ -10,16 +10,9 @@
 </head>
 
 <body class="auth-body">
-    <header class="navbar">
-        <img src="https://source.unsplash.com/random/40x40?logo" alt="Logo" class="logo">
-        <nav class="nav">
-            <a href="index.html">Inicio</a>
-            <a href="#">Nosotros</a>
-            <a href="#">Servicios</a>
-            <a href="#">Contacto</a>
-        </nav>
-        <a href="login.html" class="login-icon">👤</a>
-    </header>
+
+    @include('complements.usuaria.nav')
+
     <div class="auth-container">
         <div class="auth-header">
             <img src="https://source.unsplash.com/random/80x80?logo" alt="Logo" />
