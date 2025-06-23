@@ -28,8 +28,6 @@
             <input type="password" placeholder="Ingrese su contraseña" required />
             <label>Confirmar contraseña</label>
             <input type="password" placeholder="Ingrese nuevamente su contraseña" required />
-            <label>Subir documento PDF (para confirmar identidad)</label>
-            <input type="file" accept="application/pdf" required />
             <label>Fecha de nacimiento</label>
             <input type="date" required />
             <button type="submit">Enviar</button>
