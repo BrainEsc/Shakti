@@ -10,7 +10,7 @@
 
 <body class="bg-gray-900 text-white">
     <header class="navbar">
-        <img src="https://source.unsplash.com/random/40x40?logo" alt="Logo" class="logo">
+        <img src="" alt="Logo" class="logo">
         <nav class="nav">
             <a href="/">Inicio</a>
             <a href="#">Nosotros</a>
