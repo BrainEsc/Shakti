@@ -15,7 +15,7 @@
 
     <div class="auth-container">
         <div class="auth-header">
-            <img src="https://source.unsplash.com/random/80x80?logo" alt="Logo" />
+            <img src="{{ asset('img/LOGO SHAKTI.png') }}" alt="Logo" />
             <h1>Bienvenido</h1>
         </div>
         <form class="auth-form">
