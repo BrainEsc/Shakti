@@ -23,7 +23,11 @@
             <input type="email" placeholder="correo@dominio.com" required />
             <label>Contraseña</label>
             <input type="password" placeholder="••••••••" required />
-            <button type="submit">Ingresar</button>
+            <label for="recordar_contra">
+                <input type="checkbox" name="recordar_contra" id="recordar_contra" />
+                Recordar Contraseña
+            </label>
+            <button type="checkbox">Ingresar</button>
         </form>
         <div class="auth-footer">
             <a href="#">¿Olvidaste tu contraseña?</a>
